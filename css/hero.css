@@ -1,0 +1,63 @@
+.hero {
+  background-image: url(../img/Rectangle.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 170px;
+  margin: 0 auto;
+}
+@media screen and (min-devise-pixel-ratio: 2) {
+  .hero {
+    background-image: url(../img/Rectangle-2x.jpg);
+  }
+}
+.hero-section {
+  padding-top: 150px;
+  padding-bottom: 170px;
+}
+.container {
+}
+.hero-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 130%;
+  color: #fff;
+  margin-bottom: 32px;
+  width: 520px;
+  height: 188px;
+}
+.hero-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 180%;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 64px;
+  width: 511px;
+  height: 72px;
+}
+.hero-btn {
+  font-family: var(--third-family);
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 24px 40px;
+  background-color: #c99e71;
+  border: none;
+}
+.hero-btn:hover,
+.hero-btn:focus,
+.hero-btn:active {
+  background-color: #7d5932;
+}
+.hero-video {
+  visibility: hidden;
+  overflow: hidden;
+  pointer-events: none;
+}
+.hero-video:hover {
+}
